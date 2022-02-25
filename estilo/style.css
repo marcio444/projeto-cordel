@@ -11,7 +11,7 @@ html, body{
     background-color: darkgray;
 }
 header{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: aliceblue;
     padding-top: 50px;
     text-align: center;
@@ -43,9 +43,32 @@ section.imagem{
 
 footer {
 
-    background-color: black;
-    color: aqua;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
     padding-top: 10px;
     padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+section#img01{
+    background-image: url(../imagens/background001.jpg);
+    background-position:right center ;
+    background-attachment: fixed;
+    box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+section#img02{
+    background-image: url(../imagens/background002.jpg);
+    background-position: right center;
+    background-attachment: fixed;
+    box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+p#primeiro{
+   
+    
+}
+p{
+    color: rgb(255, 255, 255);
 }
